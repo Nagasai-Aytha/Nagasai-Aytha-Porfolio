@@ -1,14 +1,27 @@
-# Nagasai-Aytha-Porfolio
+# React Portfolio
 
-Nagasai Aytha
+Portfolio page built with React + Vite using resume-based content.
 
-Senior Frontend Developer
+## Includes
 
-Salesforce Certified Developer
+- Experience summary and technical stack
+- Resume-driven highlights and certifications
+- Rich textured premium UI styling
+- Responsive layout for desktop and mobile
 
-Salesforce Certified Administrator 
+## Run
 
-Microsoft Specialist:Programming in HTML5 with Javascript and CSS3
+```bash
+npm install
+npm run dev
+```
 
-https://www.linkedin.com/pub/naga-sai-a/b6/b7a/952
+## Build
 
+```bash
+npm run build
+```
+
+## Update profile data
+
+Edit `src/profileData.js` for summary, skills, and links.
