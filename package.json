@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "set \"VITE_BASE_PATH=/Nagasai-Aytha-Porfolio/\" && vite build",
+    "build:project": "set \"VITE_BASE_PATH=/Nagasai-Aytha-Porfolio/\" && vite build",
+    "build:root": "set \"VITE_BASE_PATH=/\" && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
